@@ -3,7 +3,7 @@
 </p>
 <h1 align="center">Hadar Theme for Hyper</h1>
 
-<p align="center">Un pack de tres temas oscuros traído desde la constelación de Centauro para darte mas comodidad al programar en la oscuridad.</p>
+<p align="center">Un tema oscuro inspirado en la constelación de Centauro, diseñado para proporcionar una experiencia visual cómoda y relajante al trabajar en la terminal durante la noche.</p>
 
 ![demo](https://raw.github.com/cristianvasquezc/hyper-hadar-theme/main/images/hadar-theme.png)
 
