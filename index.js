@@ -1,20 +1,20 @@
 const WORKBENCH = "#00000C";
 const BACKGROUND = "#00030F";
 const FOREGROUND = "#8695b7";
-const UI_GREY = "#252A34";
+const UI_GRAY = "#1d2433";
 const ACCENT = "#00B09C";
 
 const RED = "#F92672";
 const GREEN = "#A6E22E";
 const YELLOW = "#E6DB74";
-const ORANGE = "#FD971F";
+// const ORANGE = "#FD971F";
 const BLUE = "#66D9EF";
 const PURPLE = "#AE81FF";
 const MAGENTA = PURPLE;
 const WHITE = "#F0F0F0";
-const LIGHT_GREY = "#8695b7";
-const GREY = "#2f3b54";
-const DARK_GREY = "#00030F";
+const CYAN = "#00FFFF";
+const LIGHT_GRAY = "#A0A8B9";
+const GRAY = "#2f3b54";
 
 const colors = {
   black: WORKBENCH,
@@ -23,25 +23,25 @@ const colors = {
   yellow: YELLOW,
   blue: BLUE,
   magenta: MAGENTA,
-  cyan: BLUE,
-  white: LIGHT_GREY,
-  lightBlack: DARK_GREY,
+  cyan: CYAN,
+  white: LIGHT_GRAY,
+  lightBlack: GRAY,
   lightRed: RED,
   lightGreen: GREEN,
   lightYellow: YELLOW,
   lightBlue: BLUE,
   lightMagenta: MAGENTA,
-  lightCyan: BLUE,
-  lightWhite: LIGHT_GREY,
+  lightCyan: CYAN,
+  lightWhite: LIGHT_GRAY,
   colorCubes: WHITE,
-  grayscale: UI_GREY,
+  grayscale: UI_GRAY,
 };
 
 exports.decorateConfig = (config) =>
   Object.assign({}, config, {
     fontSize: 14,
     fontFamily:
-      "JetBrains Mono, Cascadia Mono SemiBold, Geist Mono, Geist Mono SemiBold, Cascadia Mono, Fira Mono for Powerline, Fira Mono, Fira Code, SF Mono, Menlo, Lucida Console, monospace",
+      "JetBrains Mono, Cascadia Mono SemiBold, Geist Mono, Geist Mono SemiBold, Cascadia Mono, Fira Mono, Fira Code, Menlo, Lucida Console, monospace",
     fontWeight: "normal",
     fontWeightBold: "normal",
     lineHeight: 1.3,
@@ -51,7 +51,7 @@ exports.decorateConfig = (config) =>
     foregroundColor: FOREGROUND,
     backgroundColor: BACKGROUND,
     selectionColor: "#2f3b5477",
-    borderColor: GREY,
+    borderColor: GRAY,
     css: `
     .hyper_main {
       border: none !important;

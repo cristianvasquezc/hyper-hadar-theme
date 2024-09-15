@@ -1,9 +1,11 @@
 name: Publish to Node.js Package Management
 
 on:
-  push:
-    branches:
-      - main
+  release:
+    types: [created]
+  # push:
+  #   branches:
+  #     - main
 
 jobs:
   publish-npm:
