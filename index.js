@@ -40,8 +40,6 @@ const colors = {
 exports.decorateConfig = (config) =>
   Object.assign({}, config, {
     fontSize: 14,
-    fontFamily:
-      "JetBrains Mono, Cascadia Mono SemiBold, Geist Mono, Geist Mono SemiBold, Cascadia Mono, Fira Mono, Fira Code, Menlo, Lucida Console, monospace",
     fontWeight: "normal",
     fontWeightBold: "normal",
     lineHeight: 1.3,
@@ -54,7 +52,7 @@ exports.decorateConfig = (config) =>
     borderColor: GRAY,
     css: `
     .hyper_main {
-      border: none !important;
+      border: 1px solid ${UI_GRAY} !important;
     }
     .header_header {
       background: ${WORKBENCH} !important;
